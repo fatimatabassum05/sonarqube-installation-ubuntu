@@ -18,8 +18,8 @@ echo "*****Downloading SonarQube 10.5.1 version"
 cd /opt 
 sudo rm -rf sonarqube*
 sudo wget -q https://binaries.sonarsource.com/Distribution/sonarqube/sonarqube-10.5.1.90531.zip
-sudo unzip -q sonarqube-9.7.1.62043.zip -d /opt/sonarqube 1>/dev/null
-sudo rm -rf sonarqube-9.7.1.62043.zip
+sudo unzip -q sonarqube-10.5.1.90531 -d /opt/sonarqube 1>/dev/null
+sudo rm -rf sonarqube-10.5.1.90531.zip
 echo "            -> Done"
 
 # Changing Ownership as Sonarqube Does not work with Root User
